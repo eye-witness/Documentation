@@ -26,55 +26,23 @@ Content-Length: 60
 ```JSON
 [
   {
-	"created" : 543784590,
-	"block": {"latitude" : 56.5, "longitude": 56.5},
 	"caseID": 1,
 	"time" : 4789735435,
+	"latitude": "56.4354534543",
+	"longitude": "56.458908453",
 	"radius": 5,
-	"location" : {"latitude": "56.4354534543", "longitude": "56.458908453"},
+	"police_force_id": 1,
 	"description" : {
 		"location": "Near motorway",
 		"crimeType": "Stolen socks",
 		"text": "",
 	},
+	"block_id": "105,-4",
+	"created" : 543784590,
 	"contact": {
-		"phoneNumber": "",
-		"policeForce": "",
+		"phoneNumber": "101",
+		"policeForce": "Hampshire Constabulary",
 	}
-  },
-  {
-    "created" : 543784590,
-	"block": {"latitude" : 56.5, "longitude": 56.5},
-	"caseID": 2,
-	"time" : 4789735435,
-	"radius": 5,
-	"location" : {"latitude": "56.4354534543", "longitude": "56.458908453"},
-	"description" : {
-		"location": "Near motorway",
-		"crimeType": "Stolen socks",
-		"text": "",
-	},
-	"contact": {
-		"phoneNumber": "",
-		"policeForce": "",
-	}
-  },
-  {
-    "created" : 543784590,
-	"block": {"latitude" : 56.5, "long": 56.5},
-	"crimeID": 2,
-	"time" : 4789735435,
-	"radius": 5,
-	"location" : {"latitude": "56.4354534543", "longitude": "56.458908453"},
-	"description" : {
-		"location": "Near motorway",
-		"crimeType": "Stolen socks",
-		"text": "",
-	},
-	"contact": {
-		"phoneNumber": "",
-		"policeForce": "",
-	}
-    }
+  }
 ]
 ```

@@ -4,8 +4,10 @@
 
 ### Sample HTTP Request
 
+IP: 104.236.110.36
+
 ```JSON
-POST /api/appeals/
+POST /index.php/api/appeals/
 Accept: application/json
 Content-Type: application/json
 Content-Length: 60
